@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaitanya's Personal site</title>
+</head>
+<body>
+    <img src="me.png" alt="Profile picture">
+    <h1>Chaitanya</h1>
+    <p><em>Founder and <strong>CEO of apple.</strong></em></p>
+    <p>I am an ios and web developer. I love cofee and  brew with beer.</p>
+    <hr>
+    <p>just using table to make them appear more attractive</p>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="me.png" alt="Profile picture"></td>
+            <td><h1>Chaitanya</h1>
+                <p><em>Founder and <strong>CEO of apple.</strong></em></p>
+                <p>I am an ios and web developer. I love cofee and  brew with beer.</p></td>
+        </tr>
+    </table>
+    <hr size="5" noshade>
+
+    <br>
+    <h3>Education :</h3>
+    <p><strong>.</strong> Vit Chennai University</p>
+    <p><strong>.</strong> Sasi Junior College</p>
+    <p><strong>.</strong> Sasi Educational Institute</p>
+    <p><strong>.</strong> Gowtham model school</p>
+    <p><strong>.</strong> Dilshuk nagar public school</p>
+    <p><strong>.</strong> Vidya niketan</p>
+    <br>
+    <hr>
+    <h3>Writing the above in a bullet point form</h3>
+    <ul>
+        <li>Vit Chennai University</li>
+        <li>Sasi Junior College</li>
+        <li>Sasi Educational Institute</li>
+        <li>Gowtham model school</li>
+        <li>Dilshuk nagar public school</li>
+        <li>Vidya niketan</li>
+    </ul>
+    <br>
+    <hr>
+    <h3>Nested bullet points</h3>
+    <ul>
+        <li>this is first bullet point</li>
+        <li>this is second bullet point</li>
+        <ul>
+            <li>This is a nested bullet point</li>
+            <li>another nested bullet point</li>
+            <ul>
+                <li>this is nested nested bullet point</li>
+                <li>this is nested nested another bullet point </li>
+            </ul>
+        </ul>
+    </ul>
+    <br>
+    <hr>
+    <h3>Hobbies of Chaitanya: </h3>
+    <ol>
+        <li>Coding</li>
+        <li>Exercising</li>
+        <li>Playing Chess and typeracer</li>
+    </ol>
+    <br>
+    <a href="hobbies.html">My hobbies list</a>
+    <br>
+    <a href="contact-me.html">Contact Me</a>
+    <br>
+    <p>I am starting to learn tables</p>
+    <p>2018-2020 Studied in Sasi junior college</p>
+    <p>2018 Started Inter first year</p>
+    <br>
+    <hr>
+    <!-- just creating table not correct way-->
+    <table>
+        <tr>
+            <th>Date Range</th>
+            <th>Studied</th>
+        </tr>
+        <tr>
+            <td>2018-2020</td>
+            <td>Junior</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>Started Inter first year</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- now creating correct way the reason for the above not correct way because
+    for headings we need to put them in thead and body part to be in tbody because 
+    in cases it will be useful like in some tables head will  be static and all body rows
+    will be scrollable understood the situation -->
+    <table>
+        <thead>
+            <tr>
+                <th>Date Range</th>
+                <th>Studied</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2018-2020</td>
+                <td>Junior</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Started Inter first year</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <center>
+        <table>
+            <tr>
+                <th>Date Range</th>
+                <th>Studied</th>
+            </tr>
+            <tr>
+                <td>2018-2020</td>
+                <td>Junior</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Started Inter first year</td>
+            </tr>
+            
+        </table>
+    </center>
+    <hr>
+    <hr>
+    <h3>skills section</h3>
+    <table>
+        <tr>
+            <td>Web developer</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Pythons</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Typeracer</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>   
+        <tr>
+            <td>Chess</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Skating</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+    <hr>
+    <p>Now we are trying to make them side by side using inserting tables as data in table</p>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <table cellspacing="20">
+                    <tr>
+                        <td>Web developer</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Pythons</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellspacing="20">
+                    <tr>
+                        <td>Typeracer</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>   
+                    <tr>
+                        <td>Chess</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Skating</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p title="Just an tooltip hover for element ">Hover mouse over me (I don't know rn it's not working)</p>
+    <hr>
+    <h1 "color":"red" style="font-size:40px">Green heading with font size 60px( not working don't know)</h1>
+    <hr>
+    <hr>
+    <hr>
+    <p>Links about learning the concepts each individually</p>
+    <a href="headings.html">Eveyrthing about headings in html</a>
+    
+</body>
+</html>
